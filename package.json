@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-53js",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "53JS ESLint rules based on Airbnb config",
   "main": "index.js",
   "scripts": {
