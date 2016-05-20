@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-53js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "53JS ESLint rules based on Airbnb config",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,7 @@
   ],
   "author": "53JS",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "eslint-config-airbnb": "^9.0.1"
   }
