@@ -1,5 +1,6 @@
 module.exports = {
 	rules: {
+		'no-tabs': 0,
 		'indent': ['error', 'tab'],
 		'spaced-comment': 0,
 		//'vars-on-top': 0, // Prevent lisibiliy
