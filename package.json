@@ -19,10 +19,16 @@
   "author": "53JS",
   "license": "MIT",
   "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-vue": "^1.0.0"
+  },
   "peerDependencies": {
-    "eslint": "^2.9.0",
-    "eslint-plugin-import": "^1.7.0",
-    "eslint-config-airbnb": "^9.0.1",
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-vue": "^1.0.0"
   }
 }
