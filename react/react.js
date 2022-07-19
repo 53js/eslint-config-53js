@@ -11,11 +11,13 @@ module.exports = {
 		},
 	},
 	rules: {
-		'react/jsx-filename-extension': [2, { extensions: ['.js'] }],
-		'react/jsx-indent': [2, 'tab'],
-		'react/jsx-indent-props': [2, 'tab'],
+		'react/react-in-jsx-scope': 'off',
+		'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
+		'react/jsx-indent': ['error', 'tab'],
+		'react/jsx-indent-props': ['error', 'tab'],
+		'react/jsx-one-expression-per-line': 'off',
 		'react/jsx-props-no-spreading': 'off',
-		'react/prefer-stateless-function': 1,
+		'react/prefer-stateless-function': 'warn',
 		'react/state-in-constructor': 'off',
 		'react/function-component-definition': [
 			2,
